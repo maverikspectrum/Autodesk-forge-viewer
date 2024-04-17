@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="https://cdn.autodesk.io/favicon.ico">
+    <link rel="stylesheet" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/style.css">
+    <link rel="stylesheet" href="/main.css">
+
+</head>
+
+<body>
+
+    <div id="header">
+        <img src="./MicrosoftTeams-image.png" height="150px" width="60px"/>
+        <span class="title">Vulcans Build Viewer</span>
+        <select name="models" id="models"></select>
+        <button id="upload" title="Upload New Model">Upload</button>
+        <input style="display: none" type="file" id="input">
+        <input type="search" id="filter" value="">
+        <button id="search">Search</button>
+        <button id="take-screenshot-with-markup">ScreenShot</button>
+
+    </div>
+    
+    <div id="preview"></div>
+    <div id="thumbnail-viewer"></div>
+
+    <div id="overlay"></div>
+    <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.js"></script>
+    <script src="/main.js" type="module"></script>
+</body>
+
+</html>
