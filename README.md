@@ -1,27 +1,7 @@
 # Simple Viewer (Node.js)
 
-![platforms](https://img.shields.io/badge/platform-windows%20%7C%20osx%20%7C%20linux-lightgray.svg)
-[![node.js](https://img.shields.io/badge/Node.js-16.16-blue.svg)](https://nodejs.org)
-[![npm](https://img.shields.io/badge/npm-8.11-blue.svg)](https://www.npmjs.com/)
-[![license](https://img.shields.io/:license-mit-green.svg)](https://opensource.org/licenses/MIT)
-
-[Autodesk Platform Services](https://aps.autodesk.com) application built by following
-the [Simple Viewer](https://tutorials.autodesk.io/tutorials/simple-viewer/) tutorial
-from https://tutorials.autodesk.io.
-
-![thumbnail](thumbnail.png)
-
 ## Development
 
-### Prerequisites
-
-- [APS credentials](https://forge.autodesk.com/en/docs/oauth/v2/tutorials/create-app)
-- [Node.js](https://nodejs.org) (Long Term Support version is recommended)
-- Command-line terminal such as [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview)
-or [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) (should already be available on your system)
-
-> We recommend using [Visual Studio Code](https://code.visualstudio.com) which, among other benefits,
-> provides an [integrated terminal](https://code.visualstudio.com/docs/terminal/basics) as well.
 
 ### Setup & Run
 
